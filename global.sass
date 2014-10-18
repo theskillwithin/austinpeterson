@@ -68,31 +68,26 @@ section
 	line-height: 0px
 	margin-right: 5px
 	width: 12px
+	span
+		display: none
+	&:hover
+		span
+			display: inline-block
+			position: absolute
+			margin: 0px
+			padding-top: 5px
+			padding-left: 3px
+			font-family: sans-serif
+			font-size: 13px
+			font-weight: 800
+	&:hover:before
+		//content: 'x'
 	&:first-child
-		background-color: #ff5d5c //outer#d6383a
-		&:hover:before
-			content: 'x'
-			position: absolute
-			margin: 0px
-			padding-top: 5px
-			padding-left: 3px
-			font-family: sans-serif
-			font-size: 12px
-			font-weight: 800
-			
+		background-color: #ff5d5c
 	&:nth-child(2)
-		background-color: #ffbc4f //outer#d49437
-		&:hover
-			content: '-'
-			position: absolute
-			margin: 0px
-			padding-top: 5px
-			padding-left: 3px
-			font-family: sans-serif
-			font-size: 12px
-			font-weight: 800
+		background-color: #ffbc4f
 	&:last-child
-		background-color: #20c957 //#07a13b
-		&:hover
-			content: 'x'
+		background-color: #20c957
+		transform: rotate(330deg)
+		font-size: 14px
 		
