@@ -68,10 +68,31 @@ section
 	line-height: 0px
 	margin-right: 5px
 	width: 12px
-	&:first-child:hover
-		background-color: red
-	&:nth-child(2):hover
-		background-color: yellow
-	&:last-child:hover
-		background-color: green
+	&:first-child
+		background-color: #ff5d5c //outer#d6383a
+		&:hover:before
+			content: 'x'
+			position: absolute
+			margin: 0px
+			padding-top: 5px
+			padding-left: 3px
+			font-family: sans-serif
+			font-size: 12px
+			font-weight: 800
+			
+	&:nth-child(2)
+		background-color: #ffbc4f //outer#d49437
+		&:hover
+			content: '-'
+			position: absolute
+			margin: 0px
+			padding-top: 5px
+			padding-left: 3px
+			font-family: sans-serif
+			font-size: 12px
+			font-weight: 800
+	&:last-child
+		background-color: #20c957 //#07a13b
+		&:hover
+			content: 'x'
 		
