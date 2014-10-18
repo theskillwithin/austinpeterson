@@ -1,0 +1,80 @@
+
+html
+	font-size: 100%
+	box-sizing: border-box
+	background: url('assets/bg/lake.jpg') no-repeat center center fixed 
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover	
+body
+	font-family: "chaparral-pro"
+	margin: 0
+	font-size: 1em
+	line-height: 1.4
+	position: relative
+	min-height: 100%
+	height: 100%
+a
+	color: #00e
+a:visited
+	color: #551a8b
+a:hover
+	color: #06e
+	outline: 0
+a:focus
+	outline: thin dotted
+a:active
+	outline: 0
+img
+	border: 0
+	-ms-interpolation-mode: bicubic
+	vertical-align: middle
+
+// HEADER HEADER HEADER //
+// HEADER HEADER HEADER //
+// HEADER HEADER HEADER //
+header
+	position: fixed
+	left: 6px
+	top: 0
+	bottom: 0
+	width: 255px
+	background-color: $header
+	border-right: solid 1px #7f7f7f
+	border-left: solid 1px #7f7f7f
+	padding: 1px 0
+	-webkit-box-shadow: rgba(0,0,0,0.5) 0 0 3px
+	-moz-box-shadow: rgba(0,0,0,0.5) 0 0 3px
+	box-shadow: rgba(0,0,0,0.5) 0 0 3px
+
+	
+// MENU MENU MENU //
+// MENU MENU MENU //
+// MENU MENU MENU //
+#site-menu
+	font-family: "jaf-domus-titling-web"
+	margin: 0 0px
+	padding: 0px
+	text-align: center
+	a
+		color: $nameplatebg
+		//background-color: $buttonbg
+		background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.8))
+		text-decoration: none
+		display: block
+		font-size: 1.1em
+		padding-bottom: 3px
+		&:hover
+			color: black
+			background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.9))
+	li
+		list-style-type: none
+		padding-bottom: 4px
+		width: 100%
+	ul
+		list-style: none
+		padding-left: 0
+
+#site-menu .current a
+	color: black

@@ -1,0 +1,1 @@
+$(window).scroll(function(){var i=$(this).scrollTop();$(".trike > div").css({top:"-"+i+"px",right:"-"+i+"px",left:"-"+i+"px"})});
