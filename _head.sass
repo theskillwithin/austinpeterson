@@ -59,11 +59,12 @@ header
 	a
 		color: $nameplatebg
 		//background-color: $buttonbg
-		background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.8))
+		background-image: linear-gradient(rgba(240,240,240,1), rgba(255,255,255,.4))
 		text-decoration: none
 		display: block
 		font-size: 1.1em
-		padding-bottom: 3px
+		padding-bottom: 1.5px
+		padding-top: 1.5px
 		&:hover
 			color: black
 			background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.9))
@@ -71,6 +72,9 @@ header
 		list-style-type: none
 		padding-bottom: 4px
 		width: 100%
+		box-shadow: 0px 0px 2px
+		&:first-child
+			box-shadow: 1px 1px 2px
 	ul
 		list-style: none
 		padding-left: 0

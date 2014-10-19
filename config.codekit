@@ -1368,7 +1368,7 @@
 		},
 	"\/jquery-2.1.1.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jquery-2.1.1.min.js",
 		"outputAbbreviatedPath": "\/min\/jquery-2.1.1.min-min.js",
