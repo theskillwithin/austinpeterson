@@ -1,0 +1,1 @@
+function checkWidth(){var e=$(window).height();600>e?$(".nameplate > a").slideUp():$(".nameplate > a").slideDown()}checkWidth(),$(window).resize(checkWidth);

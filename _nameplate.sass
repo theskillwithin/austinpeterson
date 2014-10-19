@@ -1,8 +1,11 @@
+
+
 .nameplate
 	width: 180px
 	margin-top: 10px
+	+transition(all 2.0s ease-in-out)
 .nameplate:after
-	top: 179px
+	//top: 179px
 .nameplate a
 	width: 210px
 	height: 180px
@@ -45,8 +48,11 @@
 	-moz-border-radius-bottomright: 9px
 	border-bottom-left-radius: 9px
 	border-bottom-right-radius: 9px
+.hidename
+	display: none
 .nameplate > a
-	height: 275px
+	//display: none
+	height: 230px
 	display: block
 	background: url("assets/Austin.jpg") center top no-repeat
 	position: relative
@@ -63,7 +69,7 @@
 	height: 100%
 	overflow: hidden
 	text-indent: -9999px
-	background: url("assets/Austin.jpg") center top no-repeat
+	//background: url("assets/Austin.jpg") center top no-repeat
 	-webkit-border-top-left-radius: 10px
 	-webkit-border-top-right-radius: 10px
 	-moz-border-radius-topleft: 10px

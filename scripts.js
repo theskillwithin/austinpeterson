@@ -1,11 +1,10 @@
-var title = "Hello World";
-
-$('article').html(function() {
-
-This is an article. This is an article. This is an article. This is an article. This is an article
-
-This is an article. This is an article. This is an article. This is an article. This is an article
-
-This is an article. This is an article. This is an article. This is an article. This is an article
-
-});
+function checkWidth() {
+	var windowHeight = $(window).height();
+		if (windowHeight < 600) {
+			$( ".nameplate > a" ).slideUp();
+		} else {
+			$( ".nameplate > a" ).slideDown();
+		}
+}
+checkWidth();
+$(window).resize(checkWidth);
