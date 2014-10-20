@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: global.sass
+Disallow: _head.sass
+Disallow: _nameplate.sass
+Disallow: sublime.sublime-project
+Disallow: sublime.sublime-workspace
+Disallow: global.css.map
+Disallow: config.codekit
+Disallow: /assets/bourbon/
