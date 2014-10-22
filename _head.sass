@@ -81,6 +81,9 @@ header
 
 #site-menu .current a
 	color: black
+#menu-btn
+	display: none
+
 	
 @media (max-width: 700px)
 	.nameplate
@@ -98,8 +101,18 @@ header
 		-moz-box-shadow: rgba(0,0,0,0.5) 0 0 3px
 		box-shadow: rgba(0,0,0,0.5) 0 0 3px
 	.window
-		margin: 140px 5px 5px 5px !important
+		margin: 170px 5px 5px 5px
+		+transition
 	section
 		position: relative
 		margin: 0px
 		padding: 0px
+	#menu-btn
+		font-family: "jaf-domus-titling-web"
+		display: block
+		text-align: right
+		margin-right: 7px
+		span
+			position: absolute
+			left: 7px
+			
