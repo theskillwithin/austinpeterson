@@ -25,7 +25,6 @@ $('#menu-btn').click(function(){
 
 	
 	if ( $(this).hasClass('.open') ) {
-		
 		$('#site-menu').slideUp();
 		$('.window').css("margin-top", "32px");
 		$('#menu-btn').removeClass('.open');
@@ -40,7 +39,7 @@ $('#menu-btn').click(function(){
 	// hamburger > checkwidth
 	function checkWidth() {
 		var windowWidth = $(window).width();
-			if (windowWidth > 699) {
+			if (windowWidth >= 687) {
 				$('.window').css("margin-top", "5px");
 				$('#site-menu').slideDown();
 				$('#menu-btn').addClass('.open');
