@@ -39,12 +39,14 @@ $('#menu-btn').click(function(){
 	// hamburger > checkwidth
 	function checkWidth() {
 		var windowWidth = $(window).width();
-			if (windowWidth >= 687) {
+			if (windowWidth > 700) {
 				$('.window').css("margin-top", "5px");
 				$('#site-menu').slideDown();
 				$('#menu-btn').addClass('.open');
 			} else {
-				$('.window').css("margin-top", "170px");
+				if( $('#menu-btn').hasClass('.open') ) {
+					$('.window').css("margin-top", "170px");
+				}
 			}
 	}
 	checkWidth();
