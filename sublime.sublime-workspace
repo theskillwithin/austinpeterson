@@ -3,40 +3,87 @@
 	{
 		"selected_items":
 		[
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"p",
+				"position"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/index.html",
 			"settings":
 			{
-				"buffer_size": 5310,
-				"line_ending": "Unix"
+				"buffer_size": 509,
+				"line_ending": "Windows",
+				"name": "<a href=\"\" class=\"button one\">Stem Cells</a>"
 			}
 		},
 		{
-			"file": "global.sass",
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/products.json",
 			"settings":
 			{
-				"buffer_size": 1173,
-				"line_ending": "Unix"
+				"buffer_size": 2748,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts.js",
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/lucrece.sass",
 			"settings":
 			{
-				"buffer_size": 1285,
-				"line_ending": "Unix",
-				"name": "var article = \"Hello World\";"
+				"buffer_size": 370,
+				"line_ending": "Windows",
+				"name": "$pink: #ED548E"
 			}
 		},
 		{
-			"contents": "      <div style=\"float:left;\">\n\n      <iframe src=\"https://player.vimeo.com/video/10566996\" width=\"250\" height=\"175\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n\n     </div> \n\n    <div style=\"margin-right:180px;float:right;width:500px;\">\n\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"../img/logos/mebath.jpg\" alt=\"Me! Bath\" /></p>\n<p>Headquartered in Los Angeles, ME! Bath was founded by husband and wife team Benjamin and Lisa Nissanoff in 2002. Since its debut, ME! Bath has become one of the fastest growing bath and body care companies on the market, helping consumers create a convenient, fun and luxurious spa environment in their own homes or while away on business or pleasure.</p>\n\n<a href=\"#\" class=\"highslide\"\n\nonclick=\"return hs.htmlExpand(this,\n\n    { contentId: 'my-content' } )\">\n\n<font color=\"#EA4C88\"> <strong>Read More....</strong></font>\n\n</a>\n\n<div class=\"highslide-html-content\" id=\"my-content\" style=\"width: 550px;height:400px;margin-right:300px;\">\n\n    <a href=\"#\" onclick=\"hs.close(this)\">\n\n        <div style=\"width:550px; text-align:right;\"><b><font color=\"#EA4C88\"> Close </font></b></div>\n\n    </a>\n\n    <div class=\"highslide-body\">\n\n      <h2>Me! Bath</h2>\n\n<p>ME! Bath originated from the basic principle to do simple things exceedingly well. The idea for ME! Bath first started while Lisa was attending Stanford Business School for her MBA. According to Lisa, \"I love taking baths at home but I was getting tired of the same routine every night. I envisioned a decadent bath and body line that could transform a mundane bath at home into a lavish spa-like experience.\" Benjamin, a MBA graduate with an advertising and finance background, decided to turn his wife's vision into a reality. Ten months later, ME! Bath was born.</p><br />\n\nAfter carefully researching various scents, oils and minerals, Benjamin and Lisa developed a unique proprietary formula resulting in their signature product, Bath Ice Cream. According to Benjamin, \"I had worked in product development before, and I knew that I had to create something for people that would really stand out.\" Instead of the typical monotonous manufacturing process, each Bath Ice Cream is individually handmade with meticulous preparation and comprised of the highest quality ingredients.</p><br />\n\nLisa and Benjamin began by selling their first product at local farmers' markets around the San Francisco Bay area. Today the entire line of ME! Bath products can be found in select apothecaries and in several high-end hotels and spas worldwide. ME! Bath has been featured in the press nationwide in numerous magazines, TV shows and online. Having made a splash in the beauty industry and redefining luxury bathing, ME! Bath is instrumental in setting the trends in high end bath and body products.</p><br />\n\nWelcome to the world of ME! Bath, where we encourage you to start making ME a priority again!</p><br />\n\n\n<a href=\"#\" onclick=\"hs.close(this)\"><p>\n       <b><font color=\"#EA4C88\"> Close </font></b>\n    </a>\n    </div>\n</div>\n</div>",
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/lucrece.js",
 			"settings":
 			{
-				"buffer_size": 3095,
+				"buffer_size": 574,
+				"line_ending": "Windows",
+				"name": "var hello;"
+			}
+		},
+		{
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/button.html",
+			"settings":
+			{
+				"buffer_size": 440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/button.css",
+			"settings":
+			{
+				"buffer_size": 596,
+				"line_ending": "Windows",
+				"name": "body {"
+			}
+		},
+		{
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/addtobag/styles.css",
+			"settings":
+			{
+				"buffer_size": 130075,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/SpaWeb/Desktop/lucrece/addtobag/addtocart.phtml",
+			"settings":
+			{
+				"buffer_size": 2612,
 				"line_ending": "Windows"
 			}
 		}
@@ -56,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -81,6 +128,22 @@
 	],
 	"file_history":
 	[
+		"/C/Users/SpaWeb/Desktop/lucrece/addtocart.phtml",
+		"/C/Users/SpaWeb/Desktop/lucrece/catalogproductview.phtml",
+		"/C/Users/SpaWeb/Desktop/lucrece/styles.css",
+		"/C/Users/SpaWeb/Downloads/button.svg",
+		"/C/Users/SpaWeb/Downloads/ShoppingBagIcon.svg",
+		"/C/Users/SpaWeb/Desktop/lucrece/checkout/success.phtml",
+		"/C/Users/SpaWeb/Downloads/bag piece.svg",
+		"/C/Users/SpaWeb/Desktop/lucrece/checkout/styles.css",
+		"/C/Users/SpaWeb/AppData/Roaming/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/SpaWeb/Desktop/lucrece/checkout/sass/styles.scss",
+		"/C/Users/SpaWeb/Desktop/lucrece/checkout.xml",
+		"/C/Users/SpaWeb/Google Drive/Sites/austinpeterson/scripts.js",
+		"/C/Users/SpaWeb/Google Drive/Sites/austinpeterson/global.sass",
+		"/C/Users/SpaWeb/Google Drive/Sites/austinpeterson/index.html",
+		"/C/Users/SpaWeb/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/README.md",
+		"/C/Users/SpaWeb/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
 		"/C/Users/SpaWeb/Desktop/Adobe Dreamweaver CS6/tabs.phtml",
 		"/C/Users/SpaWeb/Desktop/view.phtml",
 		"/C/Users/SpaWeb/Desktop/catalog.xml",
@@ -111,6 +174,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn-cart",
+			"productAddToCartForm.submit(this)",
+			"Add to Cart",
+			"20px",
+			"0px",
+			"#ac-page #checkout-progress-wrapper .paypal",
+			"#ac-page #checkout-progress-wrapper",
+			"?",
+			"products",
+			".on",
 			"api",
 			"contentURL",
 			"tree",
@@ -139,16 +212,136 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5310,
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<a href=\"\" class=\"button one\">Stem Cells</a>",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/products.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/lucrece.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"auto_name": "$pink: #ED548E",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/lucrece.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var hello;",
+							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/button.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 440,
 						"regions":
 						{
 						},
@@ -156,106 +349,109 @@
 						[
 							[
 								0,
-								0
+								440
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1085.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "global.sass",
+					"buffer": 5,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/button.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1173,
+						"buffer_size": 596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								596,
+								596
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "body {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "var article = \"Hello World\";",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/addtobag/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3095,
+						"buffer_size": 130075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								829,
-								829
+								54231,
+								54231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 26231.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/SpaWeb/Desktop/lucrece/addtobag/addtocart.phtml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2130,
+								2130
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -294,7 +490,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 260.0
+		"height": 63.0
 	},
 	"output.find_results":
 	{
