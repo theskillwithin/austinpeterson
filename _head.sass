@@ -1,4 +1,3 @@
-
 html
 	font-size: 100%
 	box-sizing: border-box
@@ -10,7 +9,7 @@ html
 body
 	font-family: "chaparral-pro"
 	margin: 0
-	font-size: 1em
+	font-size: 1.1em
 	line-height: 1.4
 	position: relative
 	min-height: 100%
@@ -83,8 +82,24 @@ header
 	color: black
 #menu-btn
 	display: none
-
 	
+#stt
+	border: 1px solid $window
+	border-radius: 20px
+	width: 40px
+	height: 40px
+	background-color: $window
+	position: fixed
+	bottom: -50px
+	right:  -50px
+	margin: auto
+	display: flex
+	align-items: center
+	justify-content: center
+	svg
+		+size(30px)	
+	
+
 @media (max-width: 700px)
 	.nameplate
 		display: none
@@ -101,7 +116,7 @@ header
 		-moz-box-shadow: rgba(0,0,0,0.5) 0 0 3px
 		box-shadow: rgba(0,0,0,0.5) 0 0 3px
 	.window
-		margin: 170px 5px 5px 5px
+		margin: 175px 5px 5px 5px
 		+transition(900ms)
 	section
 		position: relative
@@ -115,4 +130,10 @@ header
 		span
 			position: absolute
 			left: 7px
+	#stt
+		position: fixed
+		bottom: 20px
+		right:  20px
 			
+			
+
