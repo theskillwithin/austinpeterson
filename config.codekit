@@ -56,17 +56,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/bg\/lake.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.85723e+06,
-		"inputAbbreviatedPath": "\/assets\/bg\/lake.jpg",
-		"outputAbbreviatedPath": "\/assets\/bg\/lake.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/bg\/ocean.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -85,28 +74,6 @@
 		"initialSize": 701517,
 		"inputAbbreviatedPath": "\/assets\/bg\/ocean.jpg",
 		"outputAbbreviatedPath": "\/assets\/bg\/ocean.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/bg\/river.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.4429e+06,
-		"inputAbbreviatedPath": "\/assets\/bg\/river.jpeg",
-		"outputAbbreviatedPath": "\/assets\/bg\/river.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/bg\/river.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 502241,
-		"inputAbbreviatedPath": "\/assets\/bg\/river.jpg",
-		"outputAbbreviatedPath": "\/assets\/bg\/river.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
