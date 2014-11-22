@@ -8,6 +8,8 @@ $nameplatebg: #517991
 $header: rgba(255, 255, 255, 0.8)
 $window: rgba(255,255,255,.9)
 $buttonbg: rgba(255,255,255,.7)
+$highlight: rgba(43,75,111,.25)
+
 .window
 	margin: 5px 5px 5px 267px  // later use this in an import
 @import 'head'
@@ -19,11 +21,15 @@ $buttonbg: rgba(255,255,255,.7)
 	
 section
 	position: relative
-	margin: 5px
-	padding: 5px
+	//margin: 5px
+	//padding: 5px
 	height: auto
 	bottom: 100%
-	
+	h1
+		padding: 5px
+		background-color: $highlight
+		font-size: 16px
+
 .posttitle, .endpost
 	font-family: DejaVuSansMonoBook, monospace
 .post span
