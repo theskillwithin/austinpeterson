@@ -1,6 +1,3 @@
-// @codekit-prepend "jquery-2.1.1.min.js"
-
-
 // verticle responce
 function checkHeight() {
 	var windowHeight = $(window).height();
@@ -26,12 +23,12 @@ $('#menu-btn').click(function(){
 	
 	if ( $(this).hasClass('.open') ) {
 		$('#site-menu').slideUp();
-		$('.window').css("margin-top", "32px");
+		//$('.window').css("margin-top", "32px");
 		$('#menu-btn').removeClass('.open');
 		
 	} else {
 		$('#site-menu').slideDown();
-		$('.window').css("margin-top", "180px");
+		//$('.window').css("margin-top", "180px");
 		$('#menu-btn').addClass('.open');
 }
 });
@@ -41,14 +38,14 @@ $('#menu-btn').click(function(){
 		var windowWidth = $(window).width();
 			if (windowWidth > 700) {
 				//scroll to top
-				//$('#stt').hide();
-				//end scroll to top
+				$('#anchor').prependTo('.window');
 				$('.window').css("margin-top", "5px");
 				$('#site-menu').slideDown();
 				$('#menu-btn').addClass('.open');
 			} else {
+				$('#anchor').prependTo('header');
 				if( $('#menu-btn').hasClass('.open') ) {
-					$('.window').css("margin-top", "175px");
+					//$('.window').css("margin-top", "175px");
 					//$('#stt').show();
 				}
 			}

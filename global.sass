@@ -1,6 +1,12 @@
 @import 'assets/bourbon/bourbon'
-
-
+$function: #ffa5e2
+$array: #ff5f7f
+$const: #fec52d
+$titleOutline: #c4a028
+$equels: #fd9c27
+$quote: #3fd726
+$html: #cccccc
+$theWhite: #f2ffff
 $vvar: #48beef
 $dollar: #f92659
 $colon: #F86F11
@@ -10,12 +16,14 @@ $nameplatebg: #517991
 $header: rgba(255, 255, 255, 0.8)
 $window: rgba(255,255,255,.9)
 $buttonbg: rgba(255,255,255,.7)
-$highlight: rgba(43,75,111,.25)
+$highlight: #204661  //rgba(43,75,111,.25)
+$notHighlight: #193548
 
 .window
 	margin: 5px 5px 5px 267px  // later use this in an import
 @import 'head'
 @import 'nameplate'
+@import 'blink'
 
 ///// section /////
 ///// section /////
@@ -28,9 +36,14 @@ section
 	height: auto
 	bottom: 100%
 	h1
-		padding: 5px
+		padding: 0px
 		background-color: $highlight
 		font-size: 16px
+		color: $theWhite
+		border-top: 7px solid $notHighlight
+		border-bottom: 7px solid $notHighlight
+	h3
+		text-align: center
 
 .posttitle, .endpost
 	font-family: DejaVuSansMonoBook, monospace
@@ -52,7 +65,8 @@ section
 	display: block
 	background-color: $window
 	box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 6px 2px
-	position: absolute
+	position: relative
+	width: auto
 	border-radius: 5px 5px 5px 5px
 	.windowhead
 		background-color: #e1e1e1
@@ -70,3 +84,50 @@ section
 	margin-right: 5px
 	img
 		+size(12px)
+.flex-video
+	height: 0
+	margin-bottom: 0.88889rem
+	overflow: hidden
+	padding-bottom: 56%
+	position: relative
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video
+	height: 100%
+	position: absolute
+	top: 0
+	width: 100%
+	left: 0
+.youtube	
+	max-width: 750px
+	width: 100%
+	height: auto
+	margin: auto
+
+.post
+	.const
+		color: $const !important
+	.titleOutline
+		color: $theWhite !important
+		border: 1px solid $titleOutline !important
+		border-radius: 3px
+	.equels
+		color: $equels !important
+	.html
+		color: $html !important
+	.theWhite
+		color: $theWhite !important
+	.quote
+		color: $quote
+	.function
+		color: $function
+	.array
+		color: $array
+	.endpost
+		border-top: 15px solid #193548
+		border-bottom: 15px solid #193548
+		p
+			padding: 0px
+			margin: 0px
