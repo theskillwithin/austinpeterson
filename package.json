@@ -1,0 +1,61 @@
+{
+  "name": "austinpeterson",
+  "version": "2.0.0",
+  "description": "portfolio",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:theskillwithin/austinpeterson.git"
+  },
+  "license": "",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "jquery": true
+    }
+  },
+  "scripts": {
+    "gh-pages": "",
+    "pug": "pug *.pug",
+    "autoprefixer": "postcss -u autoprefixer -r *.css",
+    "scss": "node-sass global.sass global.css --indented-syntax --sourceMap true --outFile xglobal.css",
+    "lint": "eslint scripts.js --fix",
+    "uglify": "uglifyjs scripts.js --screw-ie8 -o scripts.js --source-map scripts.js.map && uglifyjs scripts.js --screw-ie8 --source-map min/scripts.min.js.map -m -c -o min/scripts.min.js ",
+    "serve": "browser-sync start --c bs-config.js --server './' --files './'",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:js": "npm run lint && npm run uglify",
+    "build:pug": "npm run pug",
+    "build:all": "npm run build:css && npm run build:js && npm run build:pug",
+    "watch:css": "onchange '**/*.sass' -v -- npm run build:css",
+    "watch:js": "onchange '**/*.js' -v -- npm run build:js",
+    "watch:pug": "onchange '*.pug' -v -- npm run pug",
+    "watch:all": "npm-run-all -p serve watch:css watch:js watch:pug",
+    "postinstall": "npm run build:all && npm run watch:all"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "browser-sync": "^2.17.5",
+    "eslint": "^3.9.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "imagemin-cli": "^3.0.0",
+    "node-normalize-scss": "^1.4.0",
+    "normalize": "^0.3.1",
+    "normalize-scss": "^6.0.0",
+    "npm-run-all": "^3.1.1",
+    "npm-watch": "^0.1.6",
+    "onchange": "^3.0.2",
+    "postcss-cli": "^2.6.0",
+    "pug": "^2.0.0-beta6",
+    "svg-sprite-generator": "0.0.7",
+    "svgo": "^0.7.1",
+    "swiper": "^3.4.0",
+    "uglify-js": "^2.7.4"
+  },
+  "dependencies": {
+    "node-sass": "^3.10.1",
+    "pug": "^2.0.0-beta6",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

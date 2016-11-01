@@ -1,0 +1,112 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='Online resume for Austin Peterson featuring a blog and free video tutorials on front-end web development.')
+    meta(rel='author', href='Austin Peterson')
+    title Austin Peterson Front-End Web Developer
+    link(rel='shortcut icon', href='favicon.ico', type='image/x-icon')
+    script(src='//use.typekit.net/vnm0mob.js')
+    script.
+      try{Typekit.load();}catch(e){}
+    link(rel='stylesheet', href='global.css')
+    //if lt IE 9
+      script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+  body
+    header
+      a#anchor(name='top')
+      nav#primary
+        #menu-btn.menu-btn
+          span Learn
+          img(src='assets/icons/hamburger.svg', alt='responsive menu button')
+        ul#site-menu
+          li#nav-main
+            a(href='index.html') Blog
+          li#nav-skills
+            a(href='skills.html') Skills
+          li#nav-learn.current
+            a(href='learn.html') Learn
+          li#nav-contact
+            a(href='contact.html') Contact
+      .nameplate
+        a(href='/')
+          h1 Austin Peterson
+        dl
+          dt Name
+          dd
+            a(href='/') Austin Peterson
+          dt Social
+          dd
+            ul
+              li
+                a(href='https://twitter.com/theskillwithin', target='_blank') Twitter
+              li
+                a(href='https://github.com/theskillwithin', target='_blank') GitHub
+              li
+                a(href='http://codepen.io/theskillwithin/', target='_blank') CodePen
+              li
+                a(href='http://www.sunlightsites.com/', target='_blank') Sun Sites
+      span.clear
+    .window
+      .windowhead
+        .browser-button.first
+          img(src='assets/icons/close-normal.svg', alt='close svg')
+        .browser-button.second
+          img(src='assets/icons/min-normal.svg', alt='close svg')
+        .browser-button.third
+          img(src='assets/icons/max-normal.svg', alt='close svg')
+      section#blog
+        .post
+          .posttitle
+            h1
+              | $
+              span.equels .
+              | each([
+              span.array 1
+              | ,
+              span.array 2
+              | ,
+              span.array 3
+              | ,
+              span.array 4
+              | ,
+              span.array 5
+              | ],
+              span.function function
+              | () { $(
+              span.function this
+              | )
+              span.equels .
+              | html( $title 
+              span.equels +
+              span.quote "
+          .content
+            div
+              p How to develop Magento locally using Vagrant
+              .youtube
+                .flex-video
+                  iframe(width='480', height='360', src='//www.youtube.com/embed/HW07wq2lllw', frameborder='0', allowfullscreen='')
+          hr
+          .content
+            div
+              p
+                | First Video.  Here I create a back to top button that only displays when it is needed.  Also we will you a script to create smooth scrolling when clicked.
+              .youtube
+                .flex-video
+                  iframe(width='480', height='360', src='//www.youtube.com/embed/xUZSZKLEg6M?rel=0', frameborder='0', allowfullscreen='')
+          h1
+            .endpost
+              p
+                span.quote "
+                | ); });
+                span.blinking-cursor |
+    a(href='#top')
+      #stt
+        svg.icon-point-up
+          use(xlink:href='assets/icons/up.svg#icon-point-up')
+        span.mls
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+  script(src='min/scripts-min.js', type='text/javascript')
+| 0
