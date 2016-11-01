@@ -19,14 +19,14 @@ html
       a#anchor(name='top')
       nav#primary
         #menu-btn.menu-btn
-          span Skills
+          span Learn
           img(src='assets/icons/hamburger.svg', alt='responsive menu button')
         ul#site-menu
           li#nav-main
             a(href='index.html') Blog
-          li#nav-skills.current
+          li#nav-skills
             a(href='skills.html') Skills
-          li#nav-learn
+          li#nav-learn.current
             a(href='learn.html') Learn
           li#nav-contact
             a(href='contact.html') Contact
@@ -61,46 +61,46 @@ html
         .post
           .posttitle
             h1
-              span var
-              span.titleOutline title
-              span.equels =
-              span.quote "Autodiadact"
-              | ; 
-              b.art
-                | (
-                span.quote 'ul.skills'
-                | )
-                span.equels .
-                span.html html
-                | (
-                span.quote "
+              | $
+              span.equels .
+              | each([
+              span.array 1
+              | ,
+              span.array 2
+              | ,
+              span.array 3
+              | ,
+              span.array 4
+              | ,
+              span.array 5
+              | ],
+              span.function function
+              | () { $(
+              span.function this
+              | )
+              span.equels .
+              | html( $title 
+              span.equels +
+              span.quote "
           .content
-            p
-              strong Skills ->
-              |  The following are the skills that I both practice in every week and want to use.  Skills that I have but do not use regularly are not listed (the list would be just too long! haha).
-            p
-              ul
-                li HTML5
-                li CSS & SASS
-                li Javascript & JQuery & JSON
-                li Photoshop & Adobe Products
-                li Wordpress, Magento
-                li Search Engine Optimization
-                li Ecommerce, Amazon, Google, Consulting, Shipworks, Reporting, etc
-                li Email Marketing
-                li PHP
-            p Don't forget:
-            ul
-              li Teamwork
-              li Learning & Resourceful
-              li Leadership & Project Managment
-              li Teaching
-            p
+            div
+              p How to develop Magento locally using Vagrant
+              .youtube
+                .flex-video
+                  iframe(width='480', height='360', src='//www.youtube.com/embed/HW07wq2lllw', frameborder='0', allowfullscreen='')
+          hr
+          .content
+            div
+              p
+                | First Video.  Here I create a back to top button that only displays when it is needed.  Also we will you a script to create smooth scrolling when clicked.
+              .youtube
+                .flex-video
+                  iframe(width='480', height='360', src='//www.youtube.com/embed/xUZSZKLEg6M?rel=0', frameborder='0', allowfullscreen='')
           h1
             .endpost
               p
                 span.quote "
-                | );
+                | ); });
                 span.blinking-cursor |
     a(href='#top')
       #stt
@@ -109,3 +109,4 @@ html
         span.mls
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
   script(src='min/scripts-min.js', type='text/javascript')
+| 0
