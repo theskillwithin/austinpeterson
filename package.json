@@ -54,7 +54,7 @@
     "uglify-js": "^3.7.6"
   },
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
   }
